@@ -28,10 +28,13 @@ body {
   .block1 {
     flex-basis: 400px;
     flex-grow: 2;
+    /* order: 3; */
   }
   .block2 {
     flex-basis: 100px;
+    /* order: 2; */
   }
   .block3 {
     flex-basis: 200px;
+    /* order: -1; */
   }
